@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&subset=cyrillic');
+body{
+	width: 1140px;
+	margin: 70px 0 0 70px;
+}
+.header{
+	background: url(images/Bitmapbaner_1.jpg);
+	color: #586667;
+	height: 500px;
+}
+.shadow{
+	background: #FFFFFF;
+	width: 773px;
+	height: 500PX;
+	opacity: 0.8;
+	-webkit-clip-path: polygon(0 0, 79% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 79% 0, 100% 100%, 0 100%);
+	position: absolute;
+}
+.header .info{
+	position: relative;
+	width: 773px;
+	margin-left: 4.1%;
+	top: 4.5%;
+
+}
+.header .info h1{
+	font-family: "Open Sans";
+	font-size: 64px;
+}
+.header .info p{
+	font-family: "Open Sans";
+	font-size: 20px;
+}
+.header .info p:nth-child(3){
+	font-family: "Arial";
+	font-size: 20px;
+	width: 567px;
+	margin-top: 30px;
+}
+a.btn{
+	display: inline-block;
+	color: #D55917;
+	text-decoration: none;
+	user-select: none;
+	padding-top: 2.1%;
+	padding-left: 2.3%;
+	padding-bottom: 1.9%;
+	padding-right: 2.8%;
+	outline: none;
+	border: 2px solid #D55917;
+	border-radius: 1px;
+	transition: 0.2s;	
+	font-size: 20px;
+	font-family: "Arial";
+	margin-top: 10px;
+}
+a.btn:hover { background: rgba(255,255,255,.2); }
+a.btn:active { background: white; }
+.collect h1{
+	font-family: "Arial";
+	text-align: center;
+	color: #586667;
+	font-weight: normal;
+}
+.collect .items .item{
+	border: 1px solid #FFFFFF;
+	float:left;
+	margin-left:4.7%;
+}
+.collect .items .content{
+	border-bottom: 0;
+	margin-bottom: -1px;
+	width: 220px;
+	height: 270px;
+}
+.collect .items .item img{
+	margin: 12% 0 0 12%;
+	width: 150px;
+	height: 150px;
+}
+.collect .items .item p{
+	font-size: 14px;
+	font-family: "Arial";
+	margin-left: 6%;
+	color: #000000;
+}
+.collect .items .item p:nth-child(3){
+	color: #363636;
+}
+.collect .items .item span{
+	font-size: 14px;
+	font-family: "Arial";
+	color: #A4A4A4;
+	font-weight: normal;
+}
+a.btn-item{
+	display: none;
+	color: #6B6B6B;
+	padding: 10px 10px;
+	text-decoration: none;
+	user-select: none;
+	outline: none;
+	border-top: 1px solid #CFCFCF;
+	transition: 0.2s;	
+	font-size: 14px;
+	font-family: "Arial";
+	width: 200px;
+	text-align: center;
+	background-color: #F5F5F5;
+}
+.collect .items .item:hover{
+	border: 1px solid #CFCFCF;
+}
+.collect .items .item:hover a.btn-item{
+	display: block;
+}
+.collect .items .item .price-sale p:nth-child(1){
+	text-decoration: line-through;
+	display: inline-block;
+}
+.collect .items .item .price-sale p:nth-child(2){
+	display: inline-block;
+
+	color: #D55917;
+}
+.collect .items .item .price-sale p:nth-child(3){
+	margin-top: -1%;
+}
