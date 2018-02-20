@@ -2,6 +2,7 @@
 body{
 	width: 1140px;
 	margin: 70px 0 0 70px;
+
 }
 .header{
 	background: url(images/Bitmapbaner_1.jpg);
@@ -121,9 +122,42 @@ a.btn-item{
 }
 .collect .items .item .price-sale p:nth-child(2){
 	display: inline-block;
-
 	color: #D55917;
 }
 .collect .items .item .price-sale p:nth-child(3){
 	margin-top: -1%;
+}
+
+.content-galery{
+	border: 1px solid black;
+	width: 560px;
+	height: 650px;
+	margin-bottom: 20px;
+	float: left;
+}
+.content-info{
+	border: 1px solid black;
+	border-left: none;
+	width: 430px;
+	height: 600px;
+	margin-top: 2%;
+	float: left;
+}
+.content-galery img{
+	display: block;
+  	margin: 0 auto;
+  	margin-top: 50%;
+}
+.popup p,
+.popup h1{
+	font-family: "Arial";
+}
+.content-info{
+	text-align: center;;
+}
+.fancy{
+	width: 400px;
+}
+.fancy img{
+	margin-left: 25%;
 }

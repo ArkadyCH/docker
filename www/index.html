@@ -3,6 +3,10 @@
 	<HEAD>
 		<meta charset="Utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 	</HEAD>
 	<BODY>
 		<div class="header">
@@ -24,7 +28,17 @@
 							<p>2 400 руб.</p>
 							<p>Beppi / <span>Ботинки</span></p>
 						</div>
-						<a href="#" class="btn-item">Подробнее</a>
+						<div style="display: none;" id="btn1" class="fancy">
+							<img src="images/Bitmapprod_1.jpg">
+							 <h2>Beppi / Ботинки</h2>
+							<h3>Описание:</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<p><b>Цена:</b> 2 400 руб.</p>
+						</div>
+						<a data-fancybox data-src="#btn1" href="javascript:;" class="btn-item">Подробнее</a>
 					</div>
 					<div class="item">
 						<div class="content">
@@ -32,7 +46,17 @@
 							<p>5 600 руб.</p>
 							<p>Adidas Perfo / <span>Ботинки</span></p>
 						</div>
-						<a href="#" class="btn-item">Подробнее</a>
+						<div style="display: none;" id="btn2" class="fancy">
+							<img src="images/2.png">
+							 <h2>Adidas Perfo / Ботинки</h2>
+							<h3>Описание:</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<p><b>Цена:</b> 5 600 руб.</p>
+						</div>
+						<a data-fancybox data-src="#btn2" href="javascript:;" class="btn-item">Подробнее</a>
 					</div>
 					<div class="item">
 						<div class="content">
@@ -40,7 +64,17 @@
 							<p>2 700 руб.</p>
 							<p>S-tep / <span>Ботинки</span></p>
 						</div>
-						<a href="#" class="btn-item">Подробнее</a>
+						<div style="display: none;" id="btn3" class="fancy">
+							<img src="images/3.png">
+							 <h2>S-tep / Ботинки</h2>
+							<h3>Описание:</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<p><b>Цена:</b> 2 700 руб.</p>
+						</div>
+						<a data-fancybox data-src="#btn3" href="javascript:;" class="btn-item">Подробнее</a>
 					</div>
 					<div class="item">
 						<div class="content">
@@ -49,9 +83,18 @@
 								<p>4 300 руб.</p><p>3 500 руб.</p>
 								<p>Modern / <span>Туфли</span></p>
 							</div>
-							
 						</div>
-						<a href="#" class="btn-item">Подробнее</a>
+						<div style="display: none;" id="btn4" class="fancy">
+							<img src="images/Bitmap.jpg">
+							 <h2>Modern / Туфли</h2>
+							<h3>Описание:</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<p><b>Цена:</b> 3 500 руб.</p>
+						</div>
+						<a data-fancybox data-src="#btn4" href="javascript:;" class="btn-item">Подробнее</a>
 					</div>
 				</div>
 		</div>
